@@ -1,0 +1,51 @@
+name: Bug Report
+description: Something isn't working as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issues are public.** If your screenshot shows a personal photo, blur or crop it before attaching.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - iOS (iPhone / iPad)
+        - macOS
+    validations:
+      required: true
+  - type: input
+    id: os_version
+    attributes:
+      label: OS Version
+      placeholder: "e.g. iOS 18.4 / macOS 15.4"
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: App Version
+      placeholder: "e.g. 1.2.3 — find it in Settings › About"
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you get instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Import a photo from camera roll
+        2. Select Artkal C palette
+        3. Tap any cell — nothing happens
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Attach a screenshot here if helpful. Blur any personal photos first.
