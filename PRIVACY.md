@@ -1,6 +1,6 @@
 # Privacy Policy — Beadify
 
-**Last updated: May 8, 2026**
+**Last updated: July 6, 2026**
 
 Beadify is built by Xiangyu Sun (sole developer). This policy explains what data the app handles and how.
 
