@@ -1,6 +1,6 @@
 # Beadify – Support
 
-Bug reports and feature requests for **Beadify – Pixel Bead Art Maker** on the [App Store](https://apps.apple.com/app/id6744009407).
+Bug reports and feature requests for **Beadify – Pixel Bead Art Maker** on the [App Store](https://apps.apple.com/app/id6762097815).
 
 ## File a report
 
