@@ -1,6 +1,6 @@
 # Privacy Policy — Beadify
 
-**Last updated: July 6, 2026**
+**Last updated: October 6, 2026**
 
 Beadify is built by Xiangyu Sun (sole developer). This policy explains what data the app handles and how.
 
@@ -22,12 +22,37 @@ If you use the "Take Photo" option, the image is processed immediately and conve
 
 ---
 
+## Analytics (iPhone, iPad and Mac)
+
+Beadify uses **Google Firebase Analytics** to understand which features are used (for example: which palette or grid size was picked, whether a pattern was exported). This helps decide what to improve. Firebase collects:
+
+- App interactions (the events above) and app version
+- Device type, OS version and approximate (country/region-level) location derived from your IP address
+- A random app-instance identifier, used to count unique installs
+
+Analytics data is **not linked to your identity**, contains no photos, pattern contents, names or contact details, and is not sold. See [Google's privacy policy](https://policies.google.com/privacy) and [how Google uses data from apps](https://policies.google.com/technologies/partner-sites).
+
+## Advertising (iPhone and iPad only)
+
+Beadify is free. On iPhone and iPad it shows a small banner ad served by **Google AdMob**. The Mac app has no ads.
+
+- **Consent:** in the EEA, UK and Switzerland (and other regions where required), you are asked for consent through Google's consent form before personalised ads are shown. You can change your choice anytime under **••• → Privacy Choices**.
+- **Tracking (App Tracking Transparency):** Beadify asks permission before AdMob may use your device's advertising identifier (IDFA). If you choose "Ask App Not to Track", ads are still shown but are not personalised using the IDFA. You can change this in **Settings → Privacy & Security → Tracking**.
+- AdMob may collect device information, the advertising identifier (only with your permission), approximate location from your IP address, and ad interaction data, to show and measure ads and prevent fraud. See [Google's ads privacy policy](https://policies.google.com/technologies/ads).
+
+### Remove Ads
+
+A one-time **Remove Ads** in-app purchase turns ads off permanently on every device signed in with your Apple Account. When ads are off, the advertising SDK isn't started at all and the consent and tracking prompts are not shown. Purchases are processed entirely by Apple — Beadify never sees your payment details.
+
+**If you bought Beadify while it was a paid app**, ads are automatically turned off for you — no purchase needed.
+
+---
+
 ## What Beadify does NOT do
 
-- No analytics or crash reporting SDKs
-- No advertising networks
-- No third-party data sharing
-- No tracking of any kind (declared to Apple as "No Tracking")
+- No selling of your data
+- No access to your photos beyond the ones you pick
+- Your photos and patterns are never uploaded to the developer or to Google
 - No account creation or login required
 - No data sent to any server operated by the developer
 
@@ -39,13 +64,14 @@ If you use the "Take Photo" option, the image is processed immediately and conve
 |------|-------------|-------------------|
 | Bead patterns you save | SwiftData (local) | Yes, if iCloud is enabled |
 | App preferences | UserDefaults | No |
+| Remove Ads purchase | Apple (App Store) | Restorable on any device with your Apple Account |
 | Photos you import | Not stored — processed in memory only | No |
 
 ---
 
 ## Children
 
-Beadify does not knowingly collect data from anyone, including children.
+Beadify is not directed at children under 13. It does not knowingly collect personal information from children, and the developer collects no personal information directly. Ads and analytics are provided by Google as described above.
 
 ---
 
