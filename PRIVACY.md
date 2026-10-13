@@ -40,11 +40,11 @@ Beadify is free. On iPhone and iPad it shows a small banner ad served by **Googl
 - **Tracking (App Tracking Transparency):** Beadify asks permission before AdMob may use your device's advertising identifier (IDFA). If you choose "Ask App Not to Track", ads are still shown but are not personalised using the IDFA. You can change this in **Settings → Privacy & Security → Tracking**.
 - AdMob may collect device information, the advertising identifier (only with your permission), approximate location from your IP address, and ad interaction data, to show and measure ads and prevent fraud. See [Google's ads privacy policy](https://policies.google.com/technologies/ads).
 
-### Remove Ads
+### Beadify Pro
 
-A one-time **Remove Ads** in-app purchase turns ads off permanently on every device signed in with your Apple Account. When ads are off, the advertising SDK isn't started at all and the consent and tracking prompts are not shown. Purchases are processed entirely by Apple — Beadify never sees your payment details.
+**Beadify Pro** is an optional one-time in-app purchase (called "Remove Ads" before version 1.9). It unlocks extra features, such as the board-by-board PDF, and turns ads off permanently on every device signed in with your Apple Account. When ads are off, the advertising SDK isn't started at all and the consent and tracking prompts are not shown. Pro features run entirely on your device, like the rest of the app. Purchases are processed entirely by Apple — Beadify never sees your payment details.
 
-**If you bought Beadify while it was a paid app**, ads are automatically turned off for you — no purchase needed.
+**If you bought Beadify while it was a paid app**, you automatically have Beadify Pro — no purchase needed.
 
 ---
 
@@ -64,7 +64,7 @@ A one-time **Remove Ads** in-app purchase turns ads off permanently on every dev
 |------|-------------|-------------------|
 | Bead patterns you save | SwiftData (local) | Yes, if iCloud is enabled |
 | App preferences | UserDefaults | No |
-| Remove Ads purchase | Apple (App Store) | Restorable on any device with your Apple Account |
+| Beadify Pro purchase | Apple (App Store) | Restorable on any device with your Apple Account |
 | Photos you import | Not stored — processed in memory only | No |
 
 ---
