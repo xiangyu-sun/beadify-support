@@ -1,0 +1,15 @@
+# Files owned by xiangyu-sun/appsites (apps/beadify). Do not edit.
+.github/ISSUE_TEMPLATE/bug_report.yml
+.github/ISSUE_TEMPLATE/config.yml
+.github/ISSUE_TEMPLATE/feature_request.yml
+.github/workflows/stale.yml
+PRIVACY.md
+README.md
+assets/icon.svg
+assets/screenshots/iPad-01_HeroGrid.png
+assets/screenshots/iPad-02_BuildMode.png
+assets/screenshots/iPad-03_EmojiPicker.png
+assets/screenshots/iPad-04_CustomSize.png
+index.html
+privacy.html
+style.css
