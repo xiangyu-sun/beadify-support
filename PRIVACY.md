@@ -2,7 +2,7 @@
 
 # Privacy Policy — Beadify
 
-**Last updated: October 6, 2026**
+**Last updated: November 4, 2026**
 
 Beadify is built by Xiangyu Sun (sole developer). This policy explains what data the app handles and how.
 
@@ -12,15 +12,15 @@ Beadify is built by Xiangyu Sun (sole developer). This policy explains what data
 
 ### Photos and images
 
-When you import a photo, Beadify converts it into a pixel-art bead pattern entirely **on your device**. Your photos are never uploaded to any server, never shared with third parties, and never stored outside your device or your personal iCloud account.
+When you import a photo, Beadify converts it into a pixel-art bead pattern entirely **on your device**. A copy of that photo is saved with the pattern made from it, so you can change the palette or size later; it is deleted when you delete the pattern or switch it to another source. Your photos are never uploaded to any server operated by the developer, never shared with third parties, and never stored outside your device or your personal iCloud account.
 
 ### Patterns you create
 
-Your bead patterns are saved locally using Apple's SwiftData framework. If you are signed into iCloud, patterns are automatically synced to your private iCloud account via Apple's CloudKit. Only you can access your iCloud data — Xiangyu Sun has no access to it.
+Your bead patterns, including the copy of the photo each was made from, and any custom palettes you build from the bead colors you own are saved locally using Apple's SwiftData framework. If you are signed into iCloud, they are automatically synced to your private iCloud account via Apple's CloudKit. Only you can access your iCloud data — Xiangyu Sun has no access to it.
 
 ### Camera
 
-If you use the "Take Photo" option, the image is processed immediately and converted to a bead pattern. No photo is retained beyond what you explicitly save.
+If you use the "Take Photo" option, the image is converted to a bead pattern and kept only as part of that pattern, like an imported photo. It is not added to your photo library.
 
 ---
 
@@ -65,9 +65,10 @@ Beadify is free. On iPhone and iPad it shows a small banner ad served by **Googl
 | Data | Where stored | Synced to iCloud? |
 |------|-------------|-------------------|
 | Bead patterns you save | SwiftData (local) | Yes, if iCloud is enabled |
+| The photo a pattern was made from | Saved with that pattern (SwiftData) | Yes, if iCloud is enabled |
+| Custom palettes (the bead colors you own) | SwiftData (local) | Yes, if iCloud is enabled |
 | App preferences | UserDefaults | No |
 | Beadify Pro purchase | Apple (App Store) | Restorable on any device with your Apple Account |
-| Photos you import | Not stored — processed in memory only | No |
 
 ---
 

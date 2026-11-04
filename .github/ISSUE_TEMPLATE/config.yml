@@ -2,8 +2,11 @@
 blank_issues_enabled: true
 contact_links:
   - name: Prefer email?
-    url: https://xiangyu-sun.github.io/beadify-support/
+    url: https://xiangyu-sun.github.io/beadify-support/support.html#contact
     about: "Write to alexander.xiangyu.sun@gmail.com instead. No GitHub account needed, and nothing is posted publicly."
+  - name: Help and common questions
+    url: https://xiangyu-sun.github.io/beadify-support/support.html
+    about: "Answers to common questions about Beadify. Your question may already be answered there."
   - name: Privacy policy
     url: https://xiangyu-sun.github.io/beadify-support/privacy.html
     about: "What Beadify does and doesn't collect."

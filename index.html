@@ -6,9 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beadify – Pixel Bead Art Maker</title>
   <meta name="description" content="Turn any photo or emoji into a physical bead pattern. Supports Artkal, Perler, Hama, MARD, and more bead palettes, with a shopping list and cross-brand palette conversion built in. Available on iOS and macOS.">
-  <link rel="icon" href="assets/icon.svg">
-  <link rel="apple-touch-icon" href="assets/icon.svg">
+  <link rel="canonical" href="https://xiangyu-sun.github.io/beadify-support/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Beadify">
+  <meta property="og:title" content="Beadify – Pixel Bead Art Maker">
+  <meta property="og:description" content="Turn any photo or emoji into a physical bead pattern. Supports Artkal, Perler, Hama, MARD, and more bead palettes, with a shopping list and cross-brand palette conversion built in. Available on iOS and macOS.">
+  <meta property="og:url" content="https://xiangyu-sun.github.io/beadify-support/">
+  <meta property="og:image" content="https://xiangyu-sun.github.io/beadify-support/assets/social-card.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Beadify – Pixel Bead Art Maker">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon-512.png">
   <meta name="apple-itunes-app" content="app-id=6762097815">
+  <meta name="theme-color" content="#0f0f0f">
   <link rel="stylesheet" href="style.css">
   <style>
 :root {
@@ -16,18 +29,51 @@
       --font: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
       --heading-weight: 700;
       --title-accent: var(--accent);
-      --accent: #FF6B6B; --accent2: #4ECDC4; --bg: #0f0f0f; --surface: #1a1a1a; --border: #2a2a2a; --text: #f0f0f0; --muted: #888; --hover: #222; --radius: 16px; --icon-shadow: 0 8px 32px rgba(0,0,0,0.4); --shot-border: 1px solid; --shot-shadow: none;
+      --accent: #FF6B6B; --accent2: #4ECDC4; --bg: #0f0f0f; --surface: #1a1a1a; --border: #2a2a2a; --text: #f0f0f0; --muted: #888; --hover: #222; --radius: 16px; --icon-shadow: 0 8px 32px rgba(0,0,0,0.4); --shot-border: 1px solid #2a2a2a; --shot-shadow: none;
     }
 
   </style>
 
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Beadify",
+  "alternateName": "Beadify – Pixel Bead Art Maker",
+  "applicationCategory": "DesignApplication",
+  "operatingSystem": "iOS, iPadOS, macOS",
+  "url": "https://xiangyu-sun.github.io/beadify-support/",
+  "author": {
+    "@type": "Person",
+    "name": "Xiangyu Sun"
+  },
+  "description": "Turn any photo or emoji into a physical bead pattern. Supports Artkal, Perler, Hama, MARD, and more bead palettes, with a shopping list and cross-brand palette conversion built in. Available on iOS and macOS.",
+  "downloadUrl": "https://apps.apple.com/app/id6762097815",
+  "installUrl": "https://apps.apple.com/app/id6762097815",
+  "image": "https://xiangyu-sun.github.io/beadify-support/assets/icon-512.png",
+  "screenshot": [
+    "https://xiangyu-sun.github.io/beadify-support/assets/screenshots/iPad-01_HeroGrid-800.webp",
+    "https://xiangyu-sun.github.io/beadify-support/assets/screenshots/iPad-02_BuildMode-800.webp",
+    "https://xiangyu-sun.github.io/beadify-support/assets/screenshots/iPad-03_EmojiPicker-800.webp",
+    "https://xiangyu-sun.github.io/beadify-support/assets/screenshots/iPad-04_CustomSize-800.webp"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+<main id="main">
 
   <!-- Hero -->
   <section class="hero">
-    <img src="assets/icon.svg" alt="Beadify app icon" class="app-icon">
-    <h1>Turn photos into <span>bead art.</span></h1>
+    <img src="assets/icon.svg" alt="" class="app-icon" width="120" height="120">
+    <h1>Turn photos into <span class="title-accent">bead art.</span></h1>
     <p>Beadify converts any photo or emoji into a pixel bead pattern you can physically build — with exact bead counts and color codes.</p>
 
     <div class="badges">
@@ -37,55 +83,60 @@
       </a>
 
     </div>
-    <div class="trust">
+    <p class="trust">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-      No account required · Photos stay on your device
-    </div>
+      No account required · Photos are never uploaded to us
+    </p>
   </section>
 
-  <!-- Screenshots -->
-  <section class="screenshots">
-    <div class="screenshots-grid">
-      <img src="assets/screenshots/iPad-01_HeroGrid.png" alt="Bead pattern grid view" loading="lazy">
-      <img src="assets/screenshots/iPad-02_BuildMode.png" alt="Build mode with bead codes" loading="lazy">
-      <img src="assets/screenshots/iPad-03_EmojiPicker.png" alt="Emoji picker" loading="lazy">
-      <img src="assets/screenshots/iPad-04_CustomSize.png" alt="Custom grid size" loading="lazy">
+  <!-- Screenshots: a grid on wide screens, a swipeable row on phones -->
+  <section class="screenshots" aria-label="Screenshots">
+    <div class="screenshots-grid" tabindex="0">
+      <img src="assets/screenshots/iPad-01_HeroGrid-800.webp" srcset="assets/screenshots/iPad-01_HeroGrid-400.webp 400w, assets/screenshots/iPad-01_HeroGrid-800.webp 800w, assets/screenshots/iPad-01_HeroGrid-1200.webp 1200w" sizes="(min-width: 1100px) 260px, (min-width: 700px) 30vw, 75vw" width="2064" height="2752" alt="Bead pattern grid view" decoding="async">
+      <img src="assets/screenshots/iPad-02_BuildMode-800.webp" srcset="assets/screenshots/iPad-02_BuildMode-400.webp 400w, assets/screenshots/iPad-02_BuildMode-800.webp 800w, assets/screenshots/iPad-02_BuildMode-1200.webp 1200w" sizes="(min-width: 1100px) 260px, (min-width: 700px) 30vw, 75vw" width="2064" height="2752" alt="Build mode with bead codes" loading="lazy" decoding="async">
+      <img src="assets/screenshots/iPad-03_EmojiPicker-800.webp" srcset="assets/screenshots/iPad-03_EmojiPicker-400.webp 400w, assets/screenshots/iPad-03_EmojiPicker-800.webp 800w, assets/screenshots/iPad-03_EmojiPicker-1200.webp 1200w" sizes="(min-width: 1100px) 260px, (min-width: 700px) 30vw, 75vw" width="2064" height="2752" alt="Emoji picker" loading="lazy" decoding="async">
+      <img src="assets/screenshots/iPad-04_CustomSize-800.webp" srcset="assets/screenshots/iPad-04_CustomSize-400.webp 400w, assets/screenshots/iPad-04_CustomSize-800.webp 800w, assets/screenshots/iPad-04_CustomSize-1200.webp 1200w" sizes="(min-width: 1100px) 260px, (min-width: 700px) 30vw, 75vw" width="2064" height="2752" alt="Custom grid size" loading="lazy" decoding="async">
     </div>
   </section>
 
   <section class="band">
-    <div class="grid">
+    <div class="grid cols-3">
+      <h2 class="visually-hidden">Features</h2>
       <div class="feature">
-        <h3><span class="icon">📷</span> Any source</h3>
+        <h3><span class="icon" aria-hidden="true">📷</span> Any source</h3>
         <p>Import from your photo library, take a photo with your camera, or pick from 1,900+ emoji across 8 categories.</p>
       </div>
       <div class="feature">
-        <h3><span class="icon">🎨</span> Perceptual color matching</h3>
+        <h3><span class="icon" aria-hidden="true">🎨</span> Perceptual color matching</h3>
         <p>Every pixel snaps to the nearest real bead color using Oklab — a perceptually uniform color space designed for exactly this.</p>
       </div>
       <div class="feature">
-        <h3><span class="icon">🧵</span> Build Mode</h3>
+        <h3><span class="icon" aria-hidden="true">🧵</span> Build Mode</h3>
         <p>Build board by board and row by row, with tap-to-check-off progress, so you never lose your place mid-pattern.</p>
       </div>
       <div class="feature">
-        <h3><span class="icon">✏️</span> Pattern editor</h3>
+        <h3><span class="icon" aria-hidden="true">✏️</span> Pattern editor</h3>
         <p>Paint, fill, replace colors or erase individual beads after conversion, with full undo and redo.</p>
       </div>
       <div class="feature">
-        <h3><span class="icon">🧮</span> Bead shopping list</h3>
+        <h3><span class="icon" aria-hidden="true">🧮</span> Bead shopping list</h3>
         <p>Get exact buy quantities per color, with spares built in, exportable as a CSV you can take to checkout.</p>
       </div>
       <div class="feature">
-        <h3><span class="icon">🔁</span> Palette conversion</h3>
+        <h3><span class="icon" aria-hidden="true">🔁</span> Palette conversion</h3>
         <p>Switch brands and see the nearest-match substitution for every bead — useful when your local shop only carries one line.</p>
       </div>
       <div class="feature">
-        <h3><span class="icon">🗂️</span> Project library</h3>
+        <h3><span class="icon" aria-hidden="true">🗂️</span> Project library</h3>
         <p>Save, rename, and revisit multiple patterns. Everything syncs automatically via iCloud — no account, no server.</p>
       </div>
       <div class="feature">
-        <h3><span class="icon">🧩</span> Multi-board layouts</h3>
+        <h3><span class="icon" aria-hidden="true">🧩</span> Multi-board layouts</h3>
         <p>Giant patterns split across pegboards with seam guides, so oversized builds stay easy to assemble.</p>
+      </div>
+      <div class="feature">
+        <h3><span class="icon" aria-hidden="true">🖨️</span> Print &amp; export</h3>
+        <p>Print the chart to any AirPrint printer, or export a PDF or PNG to keep beside you while you build.</p>
       </div>
     </div>
   </section>
@@ -93,33 +144,56 @@
   <section class="section">
     <h2>Built-in bead palettes</h2>
     <p>Match to real beads from the brands you already use — or build a custom palette from the colors you own.</p>
-    <div class="chip-list">
-      <div class="chip">MARD <span>213 colors</span></div>
-      <div class="chip">Artkal C <span>174 colors</span></div>
-      <div class="chip">Artkal S <span>176 colors</span></div>
-      <div class="chip">Artkal A <span>145 colors</span></div>
-      <div class="chip">Artkal M <span>220 colors</span></div>
-      <div class="chip">Perler <span>95 colors</span></div>
-      <div class="chip">Hama Midi <span>92 colors</span></div>
-      <div class="chip">Hama Mini <span>78 colors</span></div>
-      <div class="chip">Hama Maxi <span>25 colors</span></div>
-      <div class="chip">IKEA PYSSLA <span>92 colors</span></div>
-      <div class="chip">Nabbi <span>30 colors</span></div>
-    </div>
+    <ul class="chip-list">
+      <li class="chip">MARD <span>213 colors</span></li>
+      <li class="chip">Artkal C <span>174 colors</span></li>
+      <li class="chip">Artkal S <span>176 colors</span></li>
+      <li class="chip">Artkal A <span>145 colors</span></li>
+      <li class="chip">Artkal M <span>220 colors</span></li>
+      <li class="chip">Perler <span>95 colors</span></li>
+      <li class="chip">Hama Midi <span>92 colors</span></li>
+      <li class="chip">Hama Mini <span>78 colors</span></li>
+      <li class="chip">Hama Maxi <span>25 colors</span></li>
+      <li class="chip">IKEA PYSSLA <span>92 colors</span></li>
+      <li class="chip">Nabbi <span>30 colors</span></li>
+    </ul>
   </section>
 
   <section class="section">
     <h2>Beadify Pro</h2>
     <p>Everything above is free. Beadify Pro is an optional one-time purchase with extra tools for bigger projects.</p>
-    <div class="chip-list">
-      <div class="chip">Board-by-board PDF</div>
-      <div class="chip">Limit Colors</div>
-      <div class="chip">Remove Background</div>
-      <div class="chip">Remove Stray Beads</div>
-      <div class="chip">No banner ad on iPhone and iPad</div>
-      <div class="chip">Future Pro tools included</div>
-    </div>
+    <ul class="chip-list">
+      <li class="chip">Board-by-board PDF</li>
+      <li class="chip">Multi-board patterns <span>2×2 · 3×3</span></li>
+      <li class="chip">Limit Colors</li>
+      <li class="chip">Remove Background</li>
+      <li class="chip">Remove Stray Beads</li>
+      <li class="chip">No banner ad on iPhone and iPad</li>
+      <li class="chip">Future Pro tools included</li>
+    </ul>
     <p class="after">No subscription. Bought Remove Ads or Beadify 1.7? You already have Pro.</p>
+  </section>
+
+  <section class="section faq">
+    <h2>Questions</h2>
+    <div class="faq-list">
+      <details>
+        <summary>Is Beadify free?</summary>
+        <div><p>Yes. Every feature on this page is free, apart from the ones listed under Beadify Pro. Pro is a one-time purchase, not a subscription, and turns off the banner ad on iPhone and iPad.</p></div>
+      </details>
+      <details>
+        <summary>Are my photos uploaded anywhere?</summary>
+        <div><p>Not to us or anyone else. Photos are turned into patterns on your device. Each pattern keeps a copy of the photo it was made from, and patterns sync through your own private iCloud account if you're signed in. There's no Beadify account. See the <a href="privacy.html">privacy policy</a>.</p></div>
+      </details>
+      <details>
+        <summary>Does it work on Mac?</summary>
+        <div><p>Yes. Beadify runs on iPhone, iPad and Mac, and your patterns follow you through iCloud.</p></div>
+      </details>
+      <details>
+        <summary>Something&#39;s wrong, or I have an idea</summary>
+        <div><p><a href="support.html">Beadify Support</a> answers common questions and has every way to reach me.</p></div>
+      </details>
+    </div>
   </section>
 
   <!-- CTA -->
@@ -135,16 +209,24 @@
     </div>
   </section>
 
+  <!-- Help -->
+  <section class="help-strip">
+    <p>Need help with Beadify? <a href="https://xiangyu-sun.github.io/beadify-support/support.html">Get support</a> or email <a href="mailto:alexander.xiangyu.sun@gmail.com?subject=Beadify%20support&amp;body=Hi%2C%0A%0A%0A%E2%80%94%0ADevice%3A%20%0AOS%20version%3A%20%0ABeadify%20version%3A%20">alexander.xiangyu.sun@gmail.com</a>.</p>
+  </section>
+
+</main>
+
   <!-- Footer -->
   <footer>
-    <div class="footer-links">
+
+    <nav class="footer-links" aria-label="Footer">
+      <a href="https://xiangyu-sun.github.io/beadify-support/support.html">Support</a>
       <a href="privacy.html">Privacy Policy</a>
-      <a href="https://github.com/xiangyu-sun/beadify-support/issues">Support</a>
       <a href="https://github.com/xiangyu-sun/beadify-support/issues/new?template=bug_report.yml">Report a Bug</a>
       <a href="https://github.com/xiangyu-sun/beadify-support/issues/new?template=feature_request.yml">Request a Feature</a>
-      <a href="mailto:alexander.xiangyu.sun@gmail.com">Email</a>
+      <a href="mailto:alexander.xiangyu.sun@gmail.com?subject=Beadify%20support&amp;body=Hi%2C%0A%0A%0A%E2%80%94%0ADevice%3A%20%0AOS%20version%3A%20%0ABeadify%20version%3A%20">Email</a>
 
-    </div>
+    </nav>
     <p>Made by Xiangyu Sun &nbsp;·&nbsp; © 2026 Beadify</p>
   </footer>
 
